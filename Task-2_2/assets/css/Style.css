@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Navbar{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 20px;
+}
+.Navbar h5{
+    color: white;
+}
+.Hero{
+    width:100vw;
+    height: 85vh;
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero h1{
+    background-color: rgba(43, 43, 43, 0.568);
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.AboutUs{
+    background-color:#f2f9fc;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutUs div{
+    text-align: center;
+}
+
+.AboutUs h2{
+    font-size: 80px;
+    padding: 10px;
+}
+
+.AboutUs p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.OurServices{
+    background-color:#fcd5bf;
+    padding: 100px;
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+}
+.OurServices h2{
+    font-size: 80px;
+    padding: 70px;
+    text-align: center;
+}
+.OurServices h4{
+    font-size: 40px;
+    padding: 30px;
+}
+.OurServices p{
+    font-size: 30px;
+}
+.OurServices-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.Specializations{
+    background-color:#f2f9fc;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Specializations h2{
+    font-size: 80px;
+    padding: 70px;
+    text-align: center;
+}
+.Specializations h4{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.Specializations p{
+    font-size: 30px;
+    text-align: center;
+}
+.Specializations-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px ;
+}
+.OurTeachers{
+    background-color:#fcd5bf;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+.OurTeachers h2{
+    font-size: 80px;
+    padding: 70px;
+    text-align: center;
+}
+.OurTeachers h4{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+.OurTeachers p{
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+.OurTeachers-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px ;
+    text-align: center;
+}
+.Teacher-img{
+    width: 200px;
+    height: 125px;
+}
+.card-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Plan{
+    background-color:#f2f9fc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Plan-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.PlanCard-design{
+    background-color: #f5deb3;
+    border: 1px none;
+    border-radius: 20px;
+    flex-direction:column ;
+    padding: 20px;
+}
+.Plan-img{
+    width: 400px;
+    height: 200px;
+}
+.Plan h2{
+    font-size: 80px;
+    text-align: center;
+}
+.Plan h4{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.Plan p{
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+.Features-list{
+ 
+    padding:30px;
+    
+
+}
+.li{
+    font-size: 24px;
+    text-align: start;
+}
+.Box{
+    width: 400px;
+    height: 150px;
+    background-color: #fde98c;
+    border: 5px solid #ffd700;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Box p{
+    width: 400px;
+    height: 150px;
+    font-size: 30px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    padding :20px;  
+}
+.ContactUs{
+    background-color:#fcd5bf;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ContactUs h2{
+    font-size: 80px;
+    padding: 20px;
+}
+.ContactUs-form{
+    display: flex;
+    flex-direction: column;    
+}
+.ContactUs-input{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px none;
+    border-radius: 10px;
+}
+
+.ContactUs-lable{
+    font-size: 25px;
+   display: flex;
+   justify-content: start;
+
+}
+.ContactUs-botton{
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 20px ;
+    border: 1px none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+}
+.ContactInfo{
+    background-color: #fcd0b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ContactInfo h2{
+    font-size: 80px;
+    padding: 20px;
+    
+}
+.ContactInfo p{
+    font-size: 35px;
+    
+}
+.bottom-Navbar{
+    background-color: gray;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    font-size: 20px;
+}
+.bottom-Navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight:500;
+}
